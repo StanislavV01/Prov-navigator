@@ -1,0 +1,663 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1700px)
+  .nav
+    nav
+      ul
+        padding-left: 28px
+        li
+          a
+            font-size: 16px
+
+@media only screen and (max-width : 1560px)
+  .services
+    .tabs-content
+      .tab-content
+        .tabs-item-content
+          .tab-item-content
+            .img-item
+              width: 500px
+              &:after
+                border-bottom: 280px solid #122b5a
+                border-left: 160px solid transparent
+              img
+                width: 100%
+
+  .cabinet-result
+    aside
+      padding-left: 20px
+      ul
+        li
+          font-size: 16px
+          line-height: 0.9
+
+@media only screen and (max-width : 1520px)
+  footer
+    .wrapper-content
+      justify-content: center
+      .contacts
+        order: 2
+      .map
+        order: 1
+      .contacts
+        .top-contacts
+          .contacts-wrap
+            margin-right: 25px
+
+@media only screen and (max-width : 1460px)
+  .nav
+    .logo
+      padding-left: 5px
+      padding-right: 5px
+    .log-in
+      a
+        margin-right: 10px
+        margin-left: 0
+    .phone
+      width: 170px
+
+  footer
+    .wrapper-content
+      justify-content: center
+
+@media only screen and (max-width : 1425px)
+  .services
+    .tabs-content
+      .tab-content
+        .tabs-item-content
+          .tab-item-content
+            .description-item
+              width: 50%
+
+@media only screen and (max-width : 1425px)
+  .main
+    .wrapper-inner
+      .right-img
+        height: 300px
+        padding-top: 0
+        &:after
+          border-bottom: 250px solid $main-color
+          border-left: 145px solid transparent
+        img
+          height: 100%
+
+
+@media only screen and (max-width : 1320px)
+  .nav
+    .wrapper-inner
+      padding-right: 180px
+    nav
+      ul
+        li
+          a
+            font-size: 14px
+    .log-in
+      a
+        margin-right: 0
+    .phone
+      width: 140px
+      a
+        font-size: 14px
+        margin-bottom: 5px
+
+  .services
+    .tabs-content
+      .tab-content
+        .tabs-item-control
+          flex-flow: row wrap
+          li
+            width: calc(100% / 3)
+
+@media only screen and (max-width : 1200px)
+  .nav
+    nav
+      display: none
+    .menu-hidden
+      display: flex
+
+  .services
+    .tabs-content
+      .tab-content
+        .tabs-item-content
+          padding-left: 0
+          .tab-item-content
+            padding-left: 0
+            flex-direction: column-reverse
+            .description-item
+              width: 100%
+              padding: 0 20px
+              .button-media
+                display: flex
+            .media
+              .button-media
+                display: none
+            .img-item
+              &:after
+                top: 50px
+            .video
+              display: block
+              width: 100%
+              padding: 0 20px
+            .video-wrap
+              position: relative
+              padding-bottom: 56.25%
+              padding-top: 50px
+              height: 0
+              overflow: hidden
+            .video-wrap iframe
+              position: absolute
+              top: 0
+              left: 0
+              width: 100%
+              height: 100%
+
+@media only screen and (max-width : 1109px)
+  .what-you-get
+    .wrapper-inner
+      flex-direction: column-reverse
+      .wrapper-description
+        margin-top: 20px
+      .img-wrapper
+        margin-right: auto
+
+  .stage-wrap
+    .main
+      ol
+        column-count: 1
+
+  .main
+    .stage-2-26
+      ul
+        column-count: 2
+
+
+@media only screen and (max-width : 1024px)
+  .result
+    .wrapper-inner
+      .video-slider
+        margin-top: 50px
+        .slick-arrow
+          top: -40px
+        .video-wrap
+          background: white
+          padding: 20px 10px 0 10px
+
+  .recommendation
+    .wrapper-inner
+      .companion-slider
+        .slick-arrow
+          top: -40px
+
+  main
+    .wrapper-inner
+      #authorization
+        label.error
+          position: static
+          margin-bottom: 10px
+          transform: translateX(0px)
+          &:before
+            transform: rotate(90deg)
+            left: 3px
+            top: auto
+            bottom: 41px
+      #login_success
+        label.error
+          position: static
+          margin-bottom: 10px
+          transform: translateX(0px)
+          &:before
+            transform: rotate(90deg)
+            left: 3px
+            top: auto
+            bottom: 41px
+      #new_pass
+        label.error
+          position: static
+          margin-bottom: 10px
+          transform: translateX(0px)
+          &:before
+            transform: rotate(90deg)
+            left: 3px
+            top: auto
+            bottom: 41px
+      #register
+        .label-wrap
+          label.error
+            display: block
+            position: static
+            margin-bottom: 10px
+            transform: translateX(0px)
+            &:before
+              transform: rotate(90deg)
+              left: 3px
+              top: auto
+              bottom: 41px
+        label.error
+          position: static
+          margin-bottom: 10px
+          transform: translateX(0px)
+          &:before
+            transform: rotate(90deg)
+            left: 3px
+            top: auto
+            bottom: 41px
+      #restore
+        label.error
+          position: static
+          margin-bottom: 10px
+          transform: translateX(0px)
+          &:before
+            transform: rotate(90deg)
+            left: 3px
+            top: auto
+            bottom: 41px
+
+  .main
+    .stage-wrap
+      flex-direction: column-reverse
+      .right-img
+        margin: 0 auto 10px
+      .main-text
+        padding-left: 20px
+        padding-right: 20px
+    .stage-1-11-21
+      flex-direction: column
+    .stage-2-26
+      flex-direction: column
+    .stage-2-27
+      flex-direction: column
+    .stage-2-34-47
+      flex-direction: column
+    .stage-3-52
+      flex-direction: column
+    .stage-3-56
+      flex-direction: column
+
+
+@media only screen and (max-width : 861px)
+  .what-you-get
+    .wrapper-inner
+      flex-flow: column-reverse
+      .img-wrapper
+        margin-right: auto
+        margin-top: 50px
+
+  .consultation
+    .wrapper-inner
+      padding-left: 40px
+      padding-right: 40px
+      .wrapper-consultation-skew
+        flex-flow: row wrap
+        justify-content: center
+
+  .stage
+    .wrapper-inner
+      ul
+        li
+          padding: 10px 20px
+          span
+            font-size: 18px
+
+@media only screen and (max-width : 809px)
+  header
+    .parallax
+      .parallax-inner
+        background-size: cover
+
+  footer
+    .wrapper-content
+      .contacts
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .top-contacts
+          justify-content: center
+          .contacts-wrap
+            margin-left: 10px
+            margin-right: 10px
+            .footer-logo
+              a
+                margin-left: auto
+                margin-right: auto
+            .footer-phone
+              a
+                text-align: center
+                &:before
+                  margin-left: 0
+            .email
+              a
+                &:before
+                  margin-left: 0
+
+  .cabinet-result
+    position: relative
+    padding-bottom: 280px
+    min-height: 1200px
+    .wrapper-inner
+      position: relative
+      aside
+        position: absolute
+        left: 0
+        background: white
+        padding-bottom: 20px
+        transition: .4s
+        max-width: 3%
+        ul
+          li
+            p
+              display: none
+        &.active-aside
+          max-width: 280px
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.41)
+          z-index: 40
+          ul
+            li
+              p
+                display: block
+      .result-content
+        margin-left: auto
+        margin-right: 0
+        padding: 0 20px
+        max-width: 85%
+    .consultation-cabinet-wrapper
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+
+@media only screen and (max-width : 727px)
+  .question
+    .wrapper-button
+      background-position-x: -60px
+      background-size: cover
+
+  .parents
+    .wrapper-inner
+      flex-direction: column
+      h3
+        text-align: center
+      form
+        input
+          font-size: 14px
+
+  .main
+    .stage-2-26
+     ul
+       column-count: 1
+
+
+@media only screen and (max-width : 670px)
+  .question
+    .wrapper-inner
+      .wrapper-tab
+        height: 100%
+        padding-bottom: 0
+        margin-bottom: 0
+      .wrapper-button
+        margin-top: 0
+        padding-left: 40px
+        padding-right: 40px
+        .form-title
+          margin-right: auto
+          margin-left: auto
+        .wrapper-skew
+          margin-left: auto
+          margin-right: auto
+
+  .question
+    .parallax
+      .parallax-inner
+        background-size: cover
+        .wrapper-inner
+          .animation-wrapper-top
+            background: url("../img/left-1.png") no-repeat center
+            background-size: cover
+          .animation-wrapper-bottom
+            background-size: cover
+            &:after
+              left: 0
+              bottom: -10px
+              height: 220px
+
+@media only screen and (max-width : 640px)
+  .services
+    .tabs-content
+      .tab-content
+        .tabs-item-control
+          flex-flow: row wrap
+          li
+            width: calc(100% / 2)
+            padding-top: 0
+            &:before
+              display: none
+            p
+              margin: 10px 0
+
+  .question
+    .wrapper-tab
+      padding-left: 20px
+    h2
+      width: 90%
+      height: 70px
+      font-size: 22px
+
+  .advantages
+    h2
+      width: 90%
+      height: 70px
+      font-size: 22px
+
+  .what-you-get
+    h2
+      width: 90%
+      height: 70px
+      font-size: 22px
+
+  .result
+    h2
+      width: 90%
+      height: 70px
+      font-size: 20px
+
+  .recommendation
+    h2
+      width: 90%
+      height: 70px
+      font-size: 20px
+
+  .cabinet-result
+    h2
+      width: 90%
+      height: 70px
+      font-size: 20px
+
+  footer
+    h2
+      width: 90%
+      height: 70px
+      font-size: 20px
+
+@media only screen and (max-width : 630px)
+  header
+    .form-title
+      p
+        font-size: 18px
+
+@media only screen and (max-width : 550px)
+  .consultation
+    .wrapper-inner
+      .wrapper-consultation-skew
+        align-items: center
+        p
+          text-align: center
+          padding: 0 10px
+
+
+@media only screen and (max-width : 480px)
+  .nav
+    .menu-hidden
+      display: none
+    .log-in
+      display: none
+
+  header
+    form
+      padding-left: 20px
+
+  .services
+    .tabs-control
+      height: 60px
+      .tab-control
+        font-size: 20px
+        &:last-of-type
+          &:before
+            border-top: 62px solid #153776
+    .tabs-content
+      .tab-content
+        .tabs-item-control
+          margin-top: 0
+          li
+            p
+              font-size: 16px
+
+  .advantages
+    .wrapper-content
+      .wrapper-description
+        ul
+          li
+            padding-left: 20px
+            font-size: 14px
+      .wrapper-form
+        padding-top: 20px
+        form
+          .wrapper-check
+            label
+              font-size: 14px
+
+  .cabinet-result
+    .wrapper-inner
+      .result-content
+        max-width: 75%
+
+@media only screen and (max-width : 461px)
+  .main
+    .wrapper-inner
+      .right-img
+        width: 300px
+        height: auto
+        &:after
+          border-bottom: 160px solid $main-color
+          border-left: 90px solid transparent
+        img
+          width: 100%
+          height: auto
+
+@media only screen and (max-width : 441px)
+  header
+    &:before
+      display: none
+
+  .main
+    .stage-3-52
+      .wrapper-inner
+        .header-table
+          height: 171px
+          p
+            padding-left: 10px
+            padding-right: 0
+            text-align: left
+            font-size: 13px
+          .header-table-in
+            .header-table-in
+              .header-table-in
+                padding-right: 10px
+                p
+                  font-size: 16px
+                  text-align: center
+
+
+@media only screen and (max-width : 404px)
+  .question
+    .parallax
+      .parallax-inner
+        .wrapper-inner
+          .animation-wrapper-bottom
+            &:after
+              left: 0
+              bottom: -10px
+              height: 240px
+
+  .stage
+    .wrapper-inner
+      ul
+        li
+          padding: 10px 15px
+          span
+            font-size: 14px
+
+@media only screen and (max-width : 380px)
+  .consultation
+    .wrapper-inner
+      .wrapper-consultation-skew
+        p
+          font-size: 14px
+        .wrapper-skew
+          width: 150px
+          font-size: 12px
+@media only screen and (max-width : 340px)
+  .nav
+    .menu-scroll
+      .menu
+        margin-left: 10px
+      .menu-phone
+        margin-left: 10px
+        margin-right: 10px
+
+  header
+    h1
+      font-size: 30px
+    ul
+      li
+        font-size: 16px
+
+  .parents
+    .wrapper-inner
+      form
+        input
+          font-size: 12px
+
+  .cabinet-result
+    .consultation-cabinet
+      h3
+        font-size: 16px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
